@@ -1,0 +1,12 @@
+:root, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 209, 148);
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+
+}
