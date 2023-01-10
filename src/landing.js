@@ -1,4 +1,5 @@
 const landing = document.createElement('div');
+landing.classList.add('flex', 'landing');
 
 const heading = document.createElement('h1');
 heading.innerHTML = 'Podolia restoraunt';

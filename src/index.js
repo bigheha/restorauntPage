@@ -1,6 +1,8 @@
 import landing from "./landing";
-import './styles.css';
 import menu from "./menu";
+import contacts from "./contacts";
+import './reset.css';
+import './styles.css';
 
 const content = document.querySelector('.content');
 content.appendChild(landing);
@@ -26,6 +28,10 @@ header.appendChild(menuButton);
 
 const contactsButton = document.createElement('button');
 contactsButton.innerHTML = 'contacts';
+contactsButton.addEventListener('click', () => {
+    content.removeChild(content.firstElementChild);
+    content.appendChild(contacts);
+})
 header.appendChild(contactsButton);
 
 const body = document.querySelector('body');

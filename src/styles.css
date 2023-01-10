@@ -6,11 +6,37 @@
 }
 
 .header {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 8vh;
+    height: 40px;
     background-color: rgb(255, 177, 74);
+}
+button {
+    width: 100px;
 }
 
 .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.contacts, .menu, .landing {
+    align-items: center;
+    justify-content: center;
+    width: 600px;
     background-color: rgb(255, 177, 74);
+    padding: 20px;
+}
+img {
+    padding: 20px 0px;
+}
+span {
+    font-weight: 700;
 }
