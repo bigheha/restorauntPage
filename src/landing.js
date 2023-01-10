@@ -1,7 +1,7 @@
 const landing = document.createElement('div');
 
 const heading = document.createElement('h1');
-heading.innerHTML = 'Podolia restoraunt'
+heading.innerHTML = 'Podolia restoraunt';
 landing.appendChild(heading);
 
 const image = document.createElement('img');
