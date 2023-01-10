@@ -4,7 +4,7 @@ more flexibility when building your web application by giving you the ability of
 to that it became far more comfortable to write the markup of the HTML document since having the ability to write a separate js file for each part of the document makes this 
 process less tedious. 
 # Used technologies:
--Javascript
--webpack
--CSS
--HTML
+-Javascript  
+-webpack  
+-CSS  
+-HTML  
